@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #000;
+    color: #ffd700;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffd700;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid #ffd700;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ffd700;
+    color: #000;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+#bio {
+    background-color: #fff5cc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+#bio h2 {
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#bio h3 {
+    color: #ffd700;
+    font-size: 1.4em;
+    margin-top: 25px;
+}
+
+#bio p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: #333;
+}
+
+#social-links {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffd700;
+    color: #000;
+    border-radius: 5px;
+}
+
+#social-links h2 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+#social-links ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+#social-links ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    border: 2px solid #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#social-links ul li a:hover {
+    background-color: #000;
+    color: #ffd700;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: #ffd700;
+    text-align: center;
+    padding: 10px 0;
+}

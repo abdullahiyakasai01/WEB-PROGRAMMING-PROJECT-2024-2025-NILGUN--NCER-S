@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #000;
+    color: #ffd700;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffd700;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid #ffd700;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ffd700;
+    color: #000;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+#featured {
+    margin-bottom: 20px;
+}
+
+#featured h2 {
+    color: #000;
+    text-transform: uppercase;
+    border-bottom: 3px solid #ffd700;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.post {
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff5cc;
+}
+
+.post h3 {
+    margin: 0 0 5px;
+    color: #000;
+}
+
+.post p {
+    margin: 0;
+    color: #333;
+}
+
+/* Subscribe Section */
+#subscribe {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffd700;
+    color: #000;
+    border-radius: 5px;
+}
+
+#subscribe h2 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#subscribe form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#subscribe input[type="email"] {
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#subscribe button {
+    padding: 10px 15px;
+    background-color: #000;
+    color: #ffd700;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#subscribe button:hover {
+    background-color: #ffd700;
+    color: #000;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: #ffd700;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Search Bar Styles */
+.search-container {
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .search-container form {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .search-input {
+    padding: 10px 15px;
+    border: 2px solid #ffd700; /* Yellow border */
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    background-color: #000; /* Black background */
+    color: #ffd700; /* Yellow text */
+    outline: none;
+    width: 250px;
+    transition: border 0.3s;
+  }
+  
+  .search-input::placeholder {
+    color: #ffd700; /* Yellow placeholder text */
+    opacity: 0.8;
+  }
+  
+  .search-input:focus {
+    border-color: #fff; /* White border on focus */
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #ffd700; /* Yellow button */
+    color: #000; /* Black text */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #fff; /* White on hover */
+    color: #000; /* Black text */
+  }
+  
